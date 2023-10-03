@@ -5,7 +5,7 @@ opciones=(
     "Mostrar directorio:|ls -lth"
     "Mostrar calendario:|cal"
     "Mostrar fecha de hoy:|date"
-"Sustituir palabra puedo por voy: | echo 'Este es un mensaje de prueba con el simbolo | puedo ejecutar otro comando' | sed 's/puedo/voy/g'"
+    "Sustituir palabra puedo por voy: | echo 'Este es un mensaje de prueba con el simbolo | puedo ejecutar otro comando' | sed 's/puedo/voy/g'"
     "Mostrar el archivo out.txt con cat:|cat out.txt"
     "Mostrar las lineas del 3 al 7 del archivo out.txt con sed:|cat out.txt | sed -n '3,7 p'"
     "Mostrar todas las lineas del archivo out.txt con sed:|cat out.txt | sed '3d'"
@@ -29,7 +29,7 @@ while true; do
     echo "MENU SCRIPT V.1"
     echo "==============================="
     echo "Escoja una opción:"
-    for ((i=0; i<${#opciones[@]}; i++)); do
+    for ((i = 0; i < ${#opciones[@]}; i++)); do
         echo "$i. ${opciones[i]%%:*}" # Imprimimos el índice y el nombre de la opción (sin el comando).
     done
     echo "==============================="
