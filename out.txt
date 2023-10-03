@@ -1,0 +1,13 @@
+11 loadkeys es
+#!/bin/bash
+while :; do
+    #Menu
+#!/bin/bash
+while :; do
+    #Menu
+#!/bin/bash
+while :; do
+    #Menu
+# Preparar instalación
+
+loadkeys es

@@ -1,0 +1,10 @@
+
+    20)
+        echo "Concatenar la 3 priemras lineas del archivo prueba1.txt y las del archivo prueba2.txt en archivo out.txt"
+        # echo -n "Introducir nombre del archivo: y la ruta donde quieres mover"
+        # read archivo2
+        # read ruta
+        # mv $archivo2 $ruta 
+
+        head -3 archivo1 >> out.txt
+        head -3 archivo2 >> out.txt
